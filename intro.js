@@ -21,3 +21,13 @@ boolNum = Boolean(num);
 console.log(typeof newNum);
 console.log(newNum); //NaN stands for not-a-number
 console.log(boolNum);
+
+
+//OPERATIONS
+const str1 = "abc";
+const str2 = "def";
+console.log(str1 + " " + str2);   //string concaten
+console.log(typeof(1));
+console.log(typeof(1+2));
+console.log((1+"2"));
+console.log(typeof(1+"2"));
