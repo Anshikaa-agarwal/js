@@ -31,3 +31,5 @@ console.log(typeof(1));
 console.log(typeof(1+2));
 console.log((1+"2"));
 console.log(typeof(1+"2"));
+console.log((1+2+"2"+2+1));
+console.log("5"*3);
