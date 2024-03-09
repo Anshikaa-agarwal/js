@@ -33,3 +33,16 @@ console.log((1+"2"));
 console.log(typeof(1+"2"));
 console.log((1+2+"2"+2+1));
 console.log("5"*3);
+
+
+//random
+console.log(true);
+console.log(""+true);
+console.log(typeof(""+true));
+console.log(4+true);
+console.log("abc"+true);
+console.log("abc"+false);
+console.log(+true);
+console.log(+false);
+console.log(typeof(+false));
+console.log(+"");
