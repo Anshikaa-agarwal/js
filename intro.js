@@ -46,3 +46,30 @@ console.log(+true);
 console.log(+false);
 console.log(typeof(+false));
 console.log(+"");
+
+console.log(Math.round(6/8));    //rounds to the nearest integer
+let x = 5;
+console.log(x);
+console.log(++x);
+console.log(x++);
+
+
+//Comparision of datatypes
+console.log(2>1);
+console.log(2<1);
+console.log(2==1);
+console.log(2!=1);
+console.log(2=="2");
+console.log(2==="2");
+console.log("02">1);
+console.log(null==0);
+console.log(null>0);
+console.log(null>=0); //comparasion and euquality operators work differently in js.
+                      //comparision converts null into 0, whereas equality does not.
+console.log(undefined==0);
+console.log(undefined>0);
+console.log(undefined>=0);
+console.log(2==="2"); //checks value as well as datatype, therefore it will return false
+
+//type coercion 
+console.log("5"-"2");   //string is converted to number before performing arithmetic operation
